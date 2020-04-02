@@ -1,0 +1,6 @@
+# TODO BRAM maak een gitignore aan!
+
+/.idea/
+# TODO BRAM iml hoort niet in git thuis; kan dus weg
+*.iml
+/target/

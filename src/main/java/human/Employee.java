@@ -2,6 +2,7 @@ package human;
 
 public class Employee extends Person {
 
+    // TODO BRAM unused?
     public Employee() {
     }
 

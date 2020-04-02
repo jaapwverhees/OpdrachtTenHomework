@@ -10,6 +10,8 @@ class PersonTest {
 
     Person person;
 
+    // TODO BRAM testdekking beetje laag.
+
     @BeforeEach
     void setUp() {
         person = new Person();
