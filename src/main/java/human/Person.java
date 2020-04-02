@@ -1,6 +1,8 @@
 package human;
 
 
+import annotations.MyAnnotation;
+
 public class Person extends Human {
     public static int numberOfPossibleGenders = 3;
     private String name;

@@ -1,5 +1,7 @@
 package human;
 
+import annotations.MyAnnotation;
+
 import java.util.Arrays;
 
 public class HistoryRecord {
@@ -12,7 +14,7 @@ public class HistoryRecord {
         this.counter = 0;
 
     }
-
+    @MyAnnotation("beeh")
     public boolean addDescription(String decription){
         if(counter == MAX){return false;}
         this.descriptions[counter] = decription;

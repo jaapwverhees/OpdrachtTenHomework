@@ -29,4 +29,5 @@ public class Android extends Person implements ChargeAble {
         if(charge > 100) charge = 100;
         return this.charge;
     }
+
 }
